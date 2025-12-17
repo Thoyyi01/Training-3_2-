@@ -1,3 +1,6 @@
+import numpy as np
+
 Mean = [1,3,5,6,7,8,9,10]
 print("Mean of the list is:", sum(Mean)/len(Mean))
-
+print("Median", np.median(Mean))
+print(np.mean(Mean))
